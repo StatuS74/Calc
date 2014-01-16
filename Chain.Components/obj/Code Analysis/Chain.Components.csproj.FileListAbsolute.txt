@@ -1,0 +1,7 @@
+F:\polytechnic\Chain\Chain.Components\bin\Code Analysis\Chain.Components.dll
+F:\polytechnic\Chain\Chain.Components\bin\Code Analysis\Chain.Components.pdb
+F:\polytechnic\Chain\Chain.Components\bin\Code Analysis\Chain.Interfaces.dll
+F:\polytechnic\Chain\Chain.Components\bin\Code Analysis\Chain.Interfaces.pdb
+F:\polytechnic\Chain\Chain.Components\obj\Code Analysis\ResolveAssemblyReference.cache
+F:\polytechnic\Chain\Chain.Components\obj\Code Analysis\Chain.Components.dll
+F:\polytechnic\Chain\Chain.Components\obj\Code Analysis\Chain.Components.pdb

@@ -1,0 +1,9 @@
+F:\polytechnic\Chain\Chain.Components\bin\Release\Chain.Components.dll
+F:\polytechnic\Chain\Chain.Components\bin\Release\Chain.Components.pdb
+F:\polytechnic\Chain\Chain.Components\bin\Release\Chain.Components.dll.CodeAnalysisLog.xml
+F:\polytechnic\Chain\Chain.Components\bin\Release\Chain.Components.dll.lastcodeanalysissucceeded
+F:\polytechnic\Chain\Chain.Components\bin\Release\Chain.Interfaces.dll
+F:\polytechnic\Chain\Chain.Components\bin\Release\Chain.Interfaces.pdb
+F:\polytechnic\Chain\Chain.Components\obj\Release\ResolveAssemblyReference.cache
+F:\polytechnic\Chain\Chain.Components\obj\Release\Chain.Components.dll
+F:\polytechnic\Chain\Chain.Components\obj\Release\Chain.Components.pdb

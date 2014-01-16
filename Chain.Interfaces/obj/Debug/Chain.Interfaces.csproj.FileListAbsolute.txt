@@ -1,0 +1,5 @@
+E:\Chain\Chain.Interfaces\bin\Debug\calc.Interfaces.dll
+E:\Chain\Chain.Interfaces\bin\Debug\calc.Interfaces.pdb
+E:\Chain\Chain.Interfaces\obj\Debug\calc.Interfaces.dll
+E:\Chain\Chain.Interfaces\obj\Debug\calc.Interfaces.pdb
+E:\Chain\Chain.Interfaces\obj\Debug\Chain.Interfaces.csprojResolveAssemblyReference.cache
