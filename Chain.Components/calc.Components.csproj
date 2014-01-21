@@ -69,9 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Chain.Interfaces\Chain.Interfaces.csproj">
+    <ProjectReference Include="..\Chain.Interfaces\calc.Interfaces.csproj">
       <Project>{d55f7348-8358-4f5e-bf7b-09e4c5719f8b}</Project>
-      <Name>Chain.Interfaces</Name>
+      <Name>calc.Interfaces</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

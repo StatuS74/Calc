@@ -9,6 +9,7 @@ namespace Chain.Components
 {
     public class Lexer : ILexer
     {
+
         public IList<ILexeme> Analyze(string input)
         {
             if (input == null) throw new ArgumentNullException();
@@ -75,7 +76,7 @@ namespace Chain.Components
                     }
                 }
 
-                throw new LexerException(String.Format("Неверный символ {0}  в позиции {1}", (input[current]), (int)(current)));
+                throw new LexerException(String.Format("Неверный символ  в позиции {0}", (int)(current)));
             }
 
             return lexemes;

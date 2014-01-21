@@ -84,6 +84,7 @@ namespace Chain.Components
 				}
 			}
 		}
+
 		private Expression ParseExpressionPrimary()
 		{
 			switch (token.Type)

@@ -3,3 +3,8 @@ E:\Chain\Chain.Interfaces\bin\Debug\calc.Interfaces.pdb
 E:\Chain\Chain.Interfaces\obj\Debug\calc.Interfaces.dll
 E:\Chain\Chain.Interfaces\obj\Debug\calc.Interfaces.pdb
 E:\Chain\Chain.Interfaces\obj\Debug\Chain.Interfaces.csprojResolveAssemblyReference.cache
+E:\calc\Chain.Interfaces\bin\Debug\calc.Interfaces.dll
+E:\calc\Chain.Interfaces\bin\Debug\calc.Interfaces.pdb
+E:\calc\Chain.Interfaces\obj\Debug\Chain.Interfaces.csprojResolveAssemblyReference.cache
+E:\calc\Chain.Interfaces\obj\Debug\calc.Interfaces.dll
+E:\calc\Chain.Interfaces\obj\Debug\calc.Interfaces.pdb

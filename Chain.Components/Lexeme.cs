@@ -13,6 +13,7 @@ namespace Chain.Components
 		public string Name { get; set; }
 		public Nullable<int> Value { get; set; }
 
+
 		public override string ToString()
 		{
 			switch (Type)
