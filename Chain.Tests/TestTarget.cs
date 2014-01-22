@@ -12,11 +12,13 @@ namespace Chain.Tests
 	{
 		public TestTarget()
 		{
+
 			var assemblies = GetAssemblies().ToArray();
 			Compiler = CreateInstance<ICompiler>(assemblies);
 			Interpreter = CreateInstance<IInterpreter>(assemblies);
 			Lexer = CreateInstance<ILexer>(assemblies);
 			Parser = CreateInstance<IParser>(assemblies);
+
 			
 		}
         public ICompiler Compiler { get; private set; }
