@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e7fb61de-0b9f-4b33-aaf8-10bd2e60c4c3" name="САС@САС-ПК 2014-01-22 18:21:37" runUser="САС-ПК\САС" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Параметры тестирования по умолчанию" id="c8508558-b1b4-46b8-8172-a41ee542d354">
+    <Deployment runDeploymentRoot="САС_САС-ПК 2014-01-22 18_21_37">
+      <DeploymentItem filename="E:\Новая папка\calc\Chain.Interfaces\bin\Debug\calc.Interfaces.dll" />
+      <DeploymentItem filename="E:\Новая папка\calc\Chain.Components\bin\Debug\calc.Components.dll" />
+      <DeploymentItem filename="E:\Новая папка\calc\Chain.Interpeter\bin\Debug\ci.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-22T18:21:37.3053497+04:00" queuing="2014-01-22T18:21:39.1214536+04:00" start="2014-01-22T18:21:39.2624616+04:00" finish="2014-01-22T18:21:40.1725137+04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="28" executed="28" passed="28" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Lexer_MultiplicativeOperations" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="a57ab7de-351c-f924-43e6-b469a9f109e4">
+      <Execution id="132ef860-af74-4069-88b4-62578eb2d11f" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_MultiplicativeOperations" />
+    </UnitTest>
+    <UnitTest name="Interpreter_Overflow2" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="8b173ecb-54bd-2d2e-a870-c5b960b5dd50">
+      <Execution id="45c0ccb0-29fb-493b-b8b4-73e1a338992c" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_Overflow2" />
+    </UnitTest>
+    <UnitTest name="Interpreter_RedundantParentheses4" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="7f43ce58-54a6-bbb3-a5ad-a0c36bf44edf">
+      <Execution id="d079bdcb-a308-4a9e-98a0-36731b9922fd" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_RedundantParentheses4" />
+    </UnitTest>
+    <UnitTest name="Lexer_IntegerLiteralLexemeMax" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="fce2d1bf-e1eb-84d3-15e8-203e222801ef">
+      <Execution id="90707dab-2bd4-4180-b89c-a9caff72d73d" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_IntegerLiteralLexemeMax" />
+    </UnitTest>
+    <UnitTest name="Lexer_AdditiveOperations" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="fea5e1c2-57b5-ef95-78ec-4212a8921230">
+      <Execution id="27bd7cc2-0a7a-4b80-9c45-b1d5e0656c0e" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_AdditiveOperations" />
+    </UnitTest>
+    <UnitTest name="Lexer_NullArgument" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="7663dfe4-d26c-8bcd-8aad-b1205cd7e08d">
+      <Execution id="2a233c5a-3001-48bb-ad9f-b67dad5c50fb" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_NullArgument" />
+    </UnitTest>
+    <UnitTest name="Interpreter_SingleOperation" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="f36c1f06-6785-1e57-6d4d-90e85c12dff8">
+      <Execution id="bf6b78ef-4e3e-47b0-b63f-c92ffdd5939b" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_SingleOperation" />
+    </UnitTest>
+    <UnitTest name="Interpreter_RedundantParentheses3" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="846d24d5-ecc1-1204-2c64-01cd30d43603">
+      <Execution id="129934f8-8a20-4395-8037-9dab0e3a0643" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_RedundantParentheses3" />
+    </UnitTest>
+    <UnitTest name="Interpreter_Precedence" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="ab8d052c-7c49-fe1d-9a28-0e7541fcc988">
+      <Execution id="9eb4b7bc-9319-4842-8566-aec2060b43cb" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_Precedence" />
+    </UnitTest>
+    <UnitTest name="Lexer_EmptyArgument" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="6ce62cc0-d530-48ef-32f7-6d9081f3ae47">
+      <Execution id="8d4cb259-8447-47a5-be21-1f66a49eb214" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_EmptyArgument" />
+    </UnitTest>
+    <UnitTest name="Interpreter_InvalidExpression5" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="b5ea2365-4656-58f1-ae3a-9f87f4ab3551">
+      <Execution id="4b34ace1-ea24-4661-b00d-1ebd41e7e101" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_InvalidExpression5" />
+    </UnitTest>
+    <UnitTest name="Lexer_IntegerLiteralLexemeMin" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="a43ab2d9-7511-2d59-9396-51b3bbd16e12">
+      <Execution id="3e6d7f8a-3013-47c2-9f03-97abb9db729e" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_IntegerLiteralLexemeMin" />
+    </UnitTest>
+    <UnitTest name="Interpreter_InvalidExpression3" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="ab5f7a30-16a9-fc83-77b5-3df6d18ad436">
+      <Execution id="c730ed63-2103-4325-812e-e3c958158f83" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_InvalidExpression3" />
+    </UnitTest>
+    <UnitTest name="Lexer_InvalidIntegerLiteralLexemeZero" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="cececaa3-6541-12e8-07d6-66c3f2b4045b">
+      <Execution id="d2a56d74-d08d-4b80-92c8-e23a04ea7350" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_InvalidIntegerLiteralLexemeZero" />
+    </UnitTest>
+    <UnitTest name="Interpreter_InvalidExpression4" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="ec8143bf-461d-794f-c00d-c138c5221b1a">
+      <Execution id="ff31d5a4-80a9-4222-9783-400a1af902c5" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_InvalidExpression4" />
+    </UnitTest>
+    <UnitTest name="Lexer_InvalidIntegerLiteralLexemeStartingFromZero" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="526d5e80-04ef-238a-8080-df3aa1acf23e">
+      <Execution id="148edff4-d7ed-4c7a-9ac3-bc4d33122ae5" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_InvalidIntegerLiteralLexemeStartingFromZero" />
+    </UnitTest>
+    <UnitTest name="Interpreter_RedundantParentheses1" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="22ef086a-fd83-899a-e2ac-c8080765cb21">
+      <Execution id="e3c9c862-aab2-4bfc-ad7b-6cfda9e1d06e" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_RedundantParentheses1" />
+    </UnitTest>
+    <UnitTest name="Interpreter_PrecedenceParentheses1" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="50aeee83-07de-40ce-542c-7bd395f2c392">
+      <Execution id="d22cc665-e5e9-4bbd-96b9-dcbb652cefa3" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_PrecedenceParentheses1" />
+    </UnitTest>
+    <UnitTest name="Interpreter_EmptyArgument" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="5c248f74-99af-3a17-1745-762c8efa6d14">
+      <Execution id="e5319418-3846-4f8f-93e2-9bab6d6d6449" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_EmptyArgument" />
+    </UnitTest>
+    <UnitTest name="Interpreter_Overflow1" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="cc2b6462-a9bf-1a26-3b40-c2e32a48060c">
+      <Execution id="4a0471a1-f81b-4801-8576-b0b3cee50e3a" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_Overflow1" />
+    </UnitTest>
+    <UnitTest name="Interpreter_PrecedenceParentheses2" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="85cd3523-7170-ff6f-e2eb-bf68ae8d17a6">
+      <Execution id="469b98cf-b9c2-438f-8b39-e1dc74be7849" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_PrecedenceParentheses2" />
+    </UnitTest>
+    <UnitTest name="Interpreter_DivisionByZero" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="ba75e0f4-8a88-4281-9a0c-8f258c7ace56">
+      <Execution id="c239dccf-c227-4567-b342-2b8a45b7a232" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_DivisionByZero" />
+    </UnitTest>
+    <UnitTest name="Interpreter_NullArgument" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="1bc784d6-c7ca-95b5-b525-4f57f450f28c">
+      <Execution id="ddbfe167-9b05-47a9-91f1-2d8186aaed2f" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_NullArgument" />
+    </UnitTest>
+    <UnitTest name="Interpreter_InvalidExpression6" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="fe05d7cb-1e41-b254-ab8c-aa6727c36bd7">
+      <Execution id="ce58a5a9-fa61-45f0-83b7-7d12a8749183" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_InvalidExpression6" />
+    </UnitTest>
+    <UnitTest name="Lexer_ValidParantheses" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="5f8de551-ef96-bbc4-64c6-d52b17a109bc">
+      <Execution id="ef868aaa-651c-44f3-9247-a0e6ae26e133" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_ValidParantheses" />
+    </UnitTest>
+    <UnitTest name="Lexer_InvalidIntegerLiteralLexemeTooLarge" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="ca02d5ea-fce1-b144-d4ba-fa996bfbaa7b">
+      <Execution id="3164d29a-dd24-488a-90f2-dbbd9bed6892" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_InvalidIntegerLiteralLexemeTooLarge" />
+    </UnitTest>
+    <UnitTest name="Lexer_InvalidCharacter" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="7901f51b-5db9-1a0b-8c6c-c95c98a45a7c">
+      <Execution id="eef7b894-ed6c-4342-9552-96ee999a0a48" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestLexer, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Lexer_InvalidCharacter" />
+    </UnitTest>
+    <UnitTest name="Interpreter_RedundantParentheses2" storage="e:\новая папка\calc\chain.tests\bin\debug\calc.tests.dll" id="c0b0d678-b229-5615-c612-68e5dd45a7fe">
+      <Execution id="943f7549-d6b7-4bda-b4ad-4ecbb6bdc4b0" />
+      <TestMethod codeBase="E:/Новая папка/calc/Chain.Tests/bin/Debug/calc.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chain.Tests.UnitTestInterpreter, calc.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Interpreter_RedundantParentheses2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1bc784d6-c7ca-95b5-b525-4f57f450f28c" executionId="ddbfe167-9b05-47a9-91f1-2d8186aaed2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22ef086a-fd83-899a-e2ac-c8080765cb21" executionId="e3c9c862-aab2-4bfc-ad7b-6cfda9e1d06e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50aeee83-07de-40ce-542c-7bd395f2c392" executionId="d22cc665-e5e9-4bbd-96b9-dcbb652cefa3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="526d5e80-04ef-238a-8080-df3aa1acf23e" executionId="148edff4-d7ed-4c7a-9ac3-bc4d33122ae5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c248f74-99af-3a17-1745-762c8efa6d14" executionId="e5319418-3846-4f8f-93e2-9bab6d6d6449" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f8de551-ef96-bbc4-64c6-d52b17a109bc" executionId="ef868aaa-651c-44f3-9247-a0e6ae26e133" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ce62cc0-d530-48ef-32f7-6d9081f3ae47" executionId="8d4cb259-8447-47a5-be21-1f66a49eb214" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7663dfe4-d26c-8bcd-8aad-b1205cd7e08d" executionId="2a233c5a-3001-48bb-ad9f-b67dad5c50fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7901f51b-5db9-1a0b-8c6c-c95c98a45a7c" executionId="eef7b894-ed6c-4342-9552-96ee999a0a48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f43ce58-54a6-bbb3-a5ad-a0c36bf44edf" executionId="d079bdcb-a308-4a9e-98a0-36731b9922fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="846d24d5-ecc1-1204-2c64-01cd30d43603" executionId="129934f8-8a20-4395-8037-9dab0e3a0643" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85cd3523-7170-ff6f-e2eb-bf68ae8d17a6" executionId="469b98cf-b9c2-438f-8b39-e1dc74be7849" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b173ecb-54bd-2d2e-a870-c5b960b5dd50" executionId="45c0ccb0-29fb-493b-b8b4-73e1a338992c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a43ab2d9-7511-2d59-9396-51b3bbd16e12" executionId="3e6d7f8a-3013-47c2-9f03-97abb9db729e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a57ab7de-351c-f924-43e6-b469a9f109e4" executionId="132ef860-af74-4069-88b4-62578eb2d11f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab5f7a30-16a9-fc83-77b5-3df6d18ad436" executionId="c730ed63-2103-4325-812e-e3c958158f83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab8d052c-7c49-fe1d-9a28-0e7541fcc988" executionId="9eb4b7bc-9319-4842-8566-aec2060b43cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5ea2365-4656-58f1-ae3a-9f87f4ab3551" executionId="4b34ace1-ea24-4661-b00d-1ebd41e7e101" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba75e0f4-8a88-4281-9a0c-8f258c7ace56" executionId="c239dccf-c227-4567-b342-2b8a45b7a232" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0b0d678-b229-5615-c612-68e5dd45a7fe" executionId="943f7549-d6b7-4bda-b4ad-4ecbb6bdc4b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca02d5ea-fce1-b144-d4ba-fa996bfbaa7b" executionId="3164d29a-dd24-488a-90f2-dbbd9bed6892" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc2b6462-a9bf-1a26-3b40-c2e32a48060c" executionId="4a0471a1-f81b-4801-8576-b0b3cee50e3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cececaa3-6541-12e8-07d6-66c3f2b4045b" executionId="d2a56d74-d08d-4b80-92c8-e23a04ea7350" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec8143bf-461d-794f-c00d-c138c5221b1a" executionId="ff31d5a4-80a9-4222-9783-400a1af902c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f36c1f06-6785-1e57-6d4d-90e85c12dff8" executionId="bf6b78ef-4e3e-47b0-b63f-c92ffdd5939b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fce2d1bf-e1eb-84d3-15e8-203e222801ef" executionId="90707dab-2bd4-4180-b89c-a9caff72d73d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe05d7cb-1e41-b254-ab8c-aa6727c36bd7" executionId="ce58a5a9-fa61-45f0-83b7-7d12a8749183" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fea5e1c2-57b5-ef95-78ec-4212a8921230" executionId="27bd7cc2-0a7a-4b80-9c45-b1d5e0656c0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ddbfe167-9b05-47a9-91f1-2d8186aaed2f" testId="1bc784d6-c7ca-95b5-b525-4f57f450f28c" testName="Interpreter_NullArgument" computerName="САС-ПК" duration="00:00:00.1165936" startTime="2014-01-22T18:21:39.3484665+04:00" endTime="2014-01-22T18:21:39.8824971+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddbfe167-9b05-47a9-91f1-2d8186aaed2f">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3c9c862-aab2-4bfc-ad7b-6cfda9e1d06e" testId="22ef086a-fd83-899a-e2ac-c8080765cb21" testName="Interpreter_RedundantParentheses1" computerName="САС-ПК" duration="00:00:00.0153743" startTime="2014-01-22T18:21:39.8844972+04:00" endTime="2014-01-22T18:21:39.9024982+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3c9c862-aab2-4bfc-ad7b-6cfda9e1d06e">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d22cc665-e5e9-4bbd-96b9-dcbb652cefa3" testId="50aeee83-07de-40ce-542c-7bd395f2c392" testName="Interpreter_PrecedenceParentheses1" computerName="САС-ПК" duration="00:00:00.0036742" startTime="2014-01-22T18:21:39.9044984+04:00" endTime="2014-01-22T18:21:39.9114988+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d22cc665-e5e9-4bbd-96b9-dcbb652cefa3">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="148edff4-d7ed-4c7a-9ac3-bc4d33122ae5" testId="526d5e80-04ef-238a-8080-df3aa1acf23e" testName="Lexer_InvalidIntegerLiteralLexemeStartingFromZero" computerName="САС-ПК" duration="00:00:00.0043230" startTime="2014-01-22T18:21:39.9124988+04:00" endTime="2014-01-22T18:21:39.9204993+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="148edff4-d7ed-4c7a-9ac3-bc4d33122ae5">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e5319418-3846-4f8f-93e2-9bab6d6d6449" testId="5c248f74-99af-3a17-1745-762c8efa6d14" testName="Interpreter_EmptyArgument" computerName="САС-ПК" duration="00:00:00.0036496" startTime="2014-01-22T18:21:39.9214993+04:00" endTime="2014-01-22T18:21:39.9274997+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5319418-3846-4f8f-93e2-9bab6d6d6449">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef868aaa-651c-44f3-9247-a0e6ae26e133" testId="5f8de551-ef96-bbc4-64c6-d52b17a109bc" testName="Lexer_ValidParantheses" computerName="САС-ПК" duration="00:00:00.0053861" startTime="2014-01-22T18:21:39.9284997+04:00" endTime="2014-01-22T18:21:39.9375002+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef868aaa-651c-44f3-9247-a0e6ae26e133">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d4cb259-8447-47a5-be21-1f66a49eb214" testId="6ce62cc0-d530-48ef-32f7-6d9081f3ae47" testName="Lexer_EmptyArgument" computerName="САС-ПК" duration="00:00:00.0030963" startTime="2014-01-22T18:21:39.9385003+04:00" endTime="2014-01-22T18:21:39.9445006+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d4cb259-8447-47a5-be21-1f66a49eb214">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2a233c5a-3001-48bb-ad9f-b67dad5c50fb" testId="7663dfe4-d26c-8bcd-8aad-b1205cd7e08d" testName="Lexer_NullArgument" computerName="САС-ПК" duration="00:00:00.0045100" startTime="2014-01-22T18:21:39.9475008+04:00" endTime="2014-01-22T18:21:39.9545012+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a233c5a-3001-48bb-ad9f-b67dad5c50fb">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eef7b894-ed6c-4342-9552-96ee999a0a48" testId="7901f51b-5db9-1a0b-8c6c-c95c98a45a7c" testName="Lexer_InvalidCharacter" computerName="САС-ПК" duration="00:00:00.0403620" startTime="2014-01-22T18:21:39.9555013+04:00" endTime="2014-01-22T18:21:39.9995038+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eef7b894-ed6c-4342-9552-96ee999a0a48">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d079bdcb-a308-4a9e-98a0-36731b9922fd" testId="7f43ce58-54a6-bbb3-a5ad-a0c36bf44edf" testName="Interpreter_RedundantParentheses4" computerName="САС-ПК" duration="00:00:00.0032418" startTime="2014-01-22T18:21:40.0005038+04:00" endTime="2014-01-22T18:21:40.0065042+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d079bdcb-a308-4a9e-98a0-36731b9922fd">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="129934f8-8a20-4395-8037-9dab0e3a0643" testId="846d24d5-ecc1-1204-2c64-01cd30d43603" testName="Interpreter_RedundantParentheses3" computerName="САС-ПК" duration="00:00:00.0029955" startTime="2014-01-22T18:21:40.0065042+04:00" endTime="2014-01-22T18:21:40.0115045+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="129934f8-8a20-4395-8037-9dab0e3a0643">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="469b98cf-b9c2-438f-8b39-e1dc74be7849" testId="85cd3523-7170-ff6f-e2eb-bf68ae8d17a6" testName="Interpreter_PrecedenceParentheses2" computerName="САС-ПК" duration="00:00:00.0031093" startTime="2014-01-22T18:21:40.0125045+04:00" endTime="2014-01-22T18:21:40.0175048+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="469b98cf-b9c2-438f-8b39-e1dc74be7849">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="45c0ccb0-29fb-493b-b8b4-73e1a338992c" testId="8b173ecb-54bd-2d2e-a870-c5b960b5dd50" testName="Interpreter_Overflow2" computerName="САС-ПК" duration="00:00:00.0035324" startTime="2014-01-22T18:21:40.0185049+04:00" endTime="2014-01-22T18:21:40.0235052+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45c0ccb0-29fb-493b-b8b4-73e1a338992c">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e6d7f8a-3013-47c2-9f03-97abb9db729e" testId="a43ab2d9-7511-2d59-9396-51b3bbd16e12" testName="Lexer_IntegerLiteralLexemeMin" computerName="САС-ПК" duration="00:00:00.0030670" startTime="2014-01-22T18:21:40.0245052+04:00" endTime="2014-01-22T18:21:40.0295055+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e6d7f8a-3013-47c2-9f03-97abb9db729e">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="132ef860-af74-4069-88b4-62578eb2d11f" testId="a57ab7de-351c-f924-43e6-b469a9f109e4" testName="Lexer_MultiplicativeOperations" computerName="САС-ПК" duration="00:00:00.0033583" startTime="2014-01-22T18:21:40.0305056+04:00" endTime="2014-01-22T18:21:40.0355058+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="132ef860-af74-4069-88b4-62578eb2d11f">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c730ed63-2103-4325-812e-e3c958158f83" testId="ab5f7a30-16a9-fc83-77b5-3df6d18ad436" testName="Interpreter_InvalidExpression3" computerName="САС-ПК" duration="00:00:00.0038829" startTime="2014-01-22T18:21:40.0365059+04:00" endTime="2014-01-22T18:21:40.0425062+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c730ed63-2103-4325-812e-e3c958158f83">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9eb4b7bc-9319-4842-8566-aec2060b43cb" testId="ab8d052c-7c49-fe1d-9a28-0e7541fcc988" testName="Interpreter_Precedence" computerName="САС-ПК" duration="00:00:00.0042028" startTime="2014-01-22T18:21:40.0445064+04:00" endTime="2014-01-22T18:21:40.0515068+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9eb4b7bc-9319-4842-8566-aec2060b43cb">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b34ace1-ea24-4661-b00d-1ebd41e7e101" testId="b5ea2365-4656-58f1-ae3a-9f87f4ab3551" testName="Interpreter_InvalidExpression5" computerName="САС-ПК" duration="00:00:00.0035520" startTime="2014-01-22T18:21:40.0525068+04:00" endTime="2014-01-22T18:21:40.0595072+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b34ace1-ea24-4661-b00d-1ebd41e7e101">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c239dccf-c227-4567-b342-2b8a45b7a232" testId="ba75e0f4-8a88-4281-9a0c-8f258c7ace56" testName="Interpreter_DivisionByZero" computerName="САС-ПК" duration="00:00:00.0033630" startTime="2014-01-22T18:21:40.0595072+04:00" endTime="2014-01-22T18:21:40.0655076+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c239dccf-c227-4567-b342-2b8a45b7a232">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="943f7549-d6b7-4bda-b4ad-4ecbb6bdc4b0" testId="c0b0d678-b229-5615-c612-68e5dd45a7fe" testName="Interpreter_RedundantParentheses2" computerName="САС-ПК" duration="00:00:00.0030783" startTime="2014-01-22T18:21:40.0665076+04:00" endTime="2014-01-22T18:21:40.0715079+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="943f7549-d6b7-4bda-b4ad-4ecbb6bdc4b0">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3164d29a-dd24-488a-90f2-dbbd9bed6892" testId="ca02d5ea-fce1-b144-d4ba-fa996bfbaa7b" testName="Lexer_InvalidIntegerLiteralLexemeTooLarge" computerName="САС-ПК" duration="00:00:00.0047940" startTime="2014-01-22T18:21:40.0715079+04:00" endTime="2014-01-22T18:21:40.0855087+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3164d29a-dd24-488a-90f2-dbbd9bed6892">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a0471a1-f81b-4801-8576-b0b3cee50e3a" testId="cc2b6462-a9bf-1a26-3b40-c2e32a48060c" testName="Interpreter_Overflow1" computerName="САС-ПК" duration="00:00:00.0049324" startTime="2014-01-22T18:21:40.0865088+04:00" endTime="2014-01-22T18:21:40.0945092+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a0471a1-f81b-4801-8576-b0b3cee50e3a">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2a56d74-d08d-4b80-92c8-e23a04ea7350" testId="cececaa3-6541-12e8-07d6-66c3f2b4045b" testName="Lexer_InvalidIntegerLiteralLexemeZero" computerName="САС-ПК" duration="00:00:00.0042088" startTime="2014-01-22T18:21:40.0945092+04:00" endTime="2014-01-22T18:21:40.1025097+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2a56d74-d08d-4b80-92c8-e23a04ea7350">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff31d5a4-80a9-4222-9783-400a1af902c5" testId="ec8143bf-461d-794f-c00d-c138c5221b1a" testName="Interpreter_InvalidExpression4" computerName="САС-ПК" duration="00:00:00.0037854" startTime="2014-01-22T18:21:40.1025097+04:00" endTime="2014-01-22T18:21:40.1085100+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff31d5a4-80a9-4222-9783-400a1af902c5">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf6b78ef-4e3e-47b0-b63f-c92ffdd5939b" testId="f36c1f06-6785-1e57-6d4d-90e85c12dff8" testName="Interpreter_SingleOperation" computerName="САС-ПК" duration="00:00:00.0032221" startTime="2014-01-22T18:21:40.1095101+04:00" endTime="2014-01-22T18:21:40.1155104+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf6b78ef-4e3e-47b0-b63f-c92ffdd5939b">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90707dab-2bd4-4180-b89c-a9caff72d73d" testId="fce2d1bf-e1eb-84d3-15e8-203e222801ef" testName="Lexer_IntegerLiteralLexemeMax" computerName="САС-ПК" duration="00:00:00.0040284" startTime="2014-01-22T18:21:40.1165105+04:00" endTime="2014-01-22T18:21:40.1225108+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90707dab-2bd4-4180-b89c-a9caff72d73d">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ce58a5a9-fa61-45f0-83b7-7d12a8749183" testId="fe05d7cb-1e41-b254-ab8c-aa6727c36bd7" testName="Interpreter_InvalidExpression6" computerName="САС-ПК" duration="00:00:00.0032754" startTime="2014-01-22T18:21:40.1235109+04:00" endTime="2014-01-22T18:21:40.1295112+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce58a5a9-fa61-45f0-83b7-7d12a8749183">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="27bd7cc2-0a7a-4b80-9c45-b1d5e0656c0e" testId="fea5e1c2-57b5-ef95-78ec-4212a8921230" testName="Lexer_AdditiveOperations" computerName="САС-ПК" duration="00:00:00.0030850" startTime="2014-01-22T18:21:40.1315113+04:00" endTime="2014-01-22T18:21:40.1365116+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27bd7cc2-0a7a-4b80-9c45-b1d5e0656c0e">
+      <Output>
+        <DebugTrace>QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+QTAgent32.exe Information: 0 : System.BadImageFormatException: Ожидалось, что модуль содержит манифест сборки. (Исключение из HRESULT: 0x80131018)
+   в System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   в System.Reflection.Assembly.LoadFile(String path)
+   в Chain.Tests.TestTarget.&lt;GetAssemblies&gt;d__0.MoveNext() в E:\calc\Chain.Tests\TestTarget.cs:строка 37
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
