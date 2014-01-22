@@ -16,6 +16,7 @@ E:\calc\Chain.Interpeter\bin\Debug\calc.Interfaces.dll
 E:\calc\Chain.Interpeter\bin\Debug\calc.Components.pdb
 E:\calc\Chain.Interpeter\bin\Debug\calc.Interfaces.pdb
 E:\calc\Chain.Interpeter\obj\Debug\calc.Run.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 E:\Новая папка\calc\Chain.Interpeter\obj\Debug\ci.exe
 E:\Новая папка\calc\Chain.Interpeter\obj\Debug\ci.pdb
 E:\Новая папка\calc\Chain.Interpeter\bin\Debug\ci.exe
@@ -25,3 +26,5 @@ E:\Новая папка\calc\Chain.Interpeter\bin\Debug\calc.Interfaces.dll
 E:\Новая папка\calc\Chain.Interpeter\bin\Debug\calc.Components.pdb
 E:\Новая папка\calc\Chain.Interpeter\bin\Debug\calc.Interfaces.pdb
 E:\Новая папка\calc\Chain.Interpeter\obj\Debug\calc.Run.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> f1a9c98f52fb3db4e45bb0e9176cf51935eeac68
