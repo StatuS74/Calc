@@ -1,0 +1,9 @@
+E:\calc\Chain.Components\bin\Release\calc.Components.dll
+E:\calc\Chain.Components\bin\Release\calc.Components.pdb
+E:\calc\Chain.Components\bin\Release\calc.Components.dll.CodeAnalysisLog.xml
+E:\calc\Chain.Components\bin\Release\calc.Components.dll.lastcodeanalysissucceeded
+E:\calc\Chain.Components\bin\Release\calc.Interfaces.dll
+E:\calc\Chain.Components\bin\Release\calc.Interfaces.pdb
+E:\calc\Chain.Components\obj\Release\calc.Components.csprojResolveAssemblyReference.cache
+E:\calc\Chain.Components\obj\Release\calc.Components.dll
+E:\calc\Chain.Components\obj\Release\calc.Components.pdb

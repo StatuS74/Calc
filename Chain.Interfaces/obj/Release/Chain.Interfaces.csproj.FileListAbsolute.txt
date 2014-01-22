@@ -1,0 +1,4 @@
+E:\calc\Chain.Interfaces\bin\Release\calc.Interfaces.dll
+E:\calc\Chain.Interfaces\bin\Release\calc.Interfaces.pdb
+E:\calc\Chain.Interfaces\obj\Release\calc.Interfaces.dll
+E:\calc\Chain.Interfaces\obj\Release\calc.Interfaces.pdb

@@ -1,0 +1,8 @@
+E:\calc\Chain.Interfaces\bin\Debug\calc.Interfaces.dll
+E:\calc\Chain.Interfaces\bin\Debug\calc.Interfaces.pdb
+E:\calc\Chain.Interfaces\obj\Debug\calc.Interfaces.dll
+E:\calc\Chain.Interfaces\obj\Debug\calc.Interfaces.pdb
+E:\Новая папка\calc\Chain.Interfaces\bin\Debug\calc.Interfaces.dll
+E:\Новая папка\calc\Chain.Interfaces\bin\Debug\calc.Interfaces.pdb
+E:\Новая папка\calc\Chain.Interfaces\obj\Debug\calc.Interfaces.dll
+E:\Новая папка\calc\Chain.Interfaces\obj\Debug\calc.Interfaces.pdb

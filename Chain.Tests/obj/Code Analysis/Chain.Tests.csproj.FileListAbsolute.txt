@@ -1,0 +1,9 @@
+F:\polytechnic\Chain\Chain.Tests\bin\Code Analysis\Chain.Tests.dll
+F:\polytechnic\Chain\Chain.Tests\bin\Code Analysis\Chain.Tests.pdb
+F:\polytechnic\Chain\Chain.Tests\bin\Code Analysis\Chain.Components.dll
+F:\polytechnic\Chain\Chain.Tests\bin\Code Analysis\Chain.Interfaces.dll
+F:\polytechnic\Chain\Chain.Tests\bin\Code Analysis\Chain.Components.pdb
+F:\polytechnic\Chain\Chain.Tests\bin\Code Analysis\Chain.Interfaces.pdb
+F:\polytechnic\Chain\Chain.Tests\obj\Code Analysis\ResolveAssemblyReference.cache
+F:\polytechnic\Chain\Chain.Tests\obj\Code Analysis\Chain.Tests.dll
+F:\polytechnic\Chain\Chain.Tests\obj\Code Analysis\Chain.Tests.pdb
