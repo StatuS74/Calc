@@ -7,6 +7,7 @@ namespace Chain.Tests
 	public class UnitTestCompiler
 	{
 
+
 		[TestInitialize]
 		public void TestInitialize()
 		{

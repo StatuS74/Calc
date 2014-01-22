@@ -21,6 +21,7 @@ namespace Chain.Tests
 
 			
 		}
+
         public ICompiler Compiler { get; private set; }
 		public IInterpreter Interpreter { get; private set; }
 		public ILexer Lexer { get; private set; }
