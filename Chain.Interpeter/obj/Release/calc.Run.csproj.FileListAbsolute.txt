@@ -1,0 +1,9 @@
+E:\calc\Chain.Interpeter\bin\Release\ci.exe
+E:\calc\Chain.Interpeter\bin\Release\ci.pdb
+E:\calc\Chain.Interpeter\bin\Release\calc.Components.dll
+E:\calc\Chain.Interpeter\bin\Release\calc.Interfaces.dll
+E:\calc\Chain.Interpeter\bin\Release\calc.Components.pdb
+E:\calc\Chain.Interpeter\bin\Release\calc.Interfaces.pdb
+E:\calc\Chain.Interpeter\obj\Release\calc.Run.csprojResolveAssemblyReference.cache
+E:\calc\Chain.Interpeter\obj\Release\ci.exe
+E:\calc\Chain.Interpeter\obj\Release\ci.pdb
