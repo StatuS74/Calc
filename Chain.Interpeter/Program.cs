@@ -20,6 +20,7 @@ namespace Chain.Interpeter
 				{
 					int result = interpreter.Execute(expression);
 					Console.WriteLine("Результат: " + result);
+
 				}
 				catch (LexerException ex)
 				{

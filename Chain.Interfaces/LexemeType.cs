@@ -2,6 +2,7 @@
 {
 	public enum LexemeType
 	{
+
 		IntegerLiteral,
 		OperatorAdd,
 		OperatorDiv,
@@ -10,5 +11,6 @@
 		Parameter,
 		ParenthesesLeft,
 		ParenthesesRight,
+
 	}
 }

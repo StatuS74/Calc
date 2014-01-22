@@ -8,6 +8,7 @@ namespace Chain.Components
 {
 	public class Compiler : ICompiler
 	{
+
 		public byte[] Compile(string input)
 		{
 			var lexer = new Lexer();

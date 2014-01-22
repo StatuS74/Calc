@@ -7,6 +7,7 @@ namespace Chain.Interfaces
 {
 	public enum OpCode : byte
 	{
+
 		Input =		10,
 		Output =	11,
 		Pushc =		20,
@@ -16,5 +17,6 @@ namespace Chain.Interfaces
 		Sub =		31,
 		Mul =		32,
 		Div =		33,
+
 	}
 }

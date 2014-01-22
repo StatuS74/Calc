@@ -16,6 +16,7 @@ namespace Chain.Components
 			return EvaluateInternal(expression, x => parameters[x]);
 		}
 
+
 		private int EvaluateInternal(Expression expression, Func<string, int> parametergetter)
 		{
 			if (expression.NodeType == ExpressionType.Add)

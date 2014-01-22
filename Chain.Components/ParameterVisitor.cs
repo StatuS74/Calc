@@ -11,6 +11,8 @@ namespace Chain.Components
 			Visit(expression);
 			return parameters;
 		}
+
+
 		protected override Expression VisitParameter(ParameterExpression node)
 		{
 			parameters.Add(node);

@@ -7,6 +7,7 @@ namespace Chain.Components
 	public class Interpreter : IInterpreter
 	{
 		public Func<string, int> ParameterGetter { get; set; }
+
 		public int Execute(string input)
 		{
 			if (input == null) throw new ArgumentNullException();
